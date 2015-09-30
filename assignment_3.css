@@ -1,0 +1,75 @@
+/* File:  /~alora/cssindex.css
+  Andry Lora, UMass Lowell Computer Science, Andrylr@gmail.com
+  Copyright (c) 2015 by Andry Lora.  All rights reserved.  
+  File created:September 05,2015
+    updated by Andry Lora on September 22, 2015
+ */
+
+ /*puts a light blue background on the page */
+ body {
+     background-color:#E6E6FA;
+ }
+ 
+ /*Aligns the header text into the middle while giving it a 4 pixel padding
+and changing the font to a font from the cursive family */
+#header {
+    text-align:center;
+    padding:4px;
+    font-family:"cursive",Zapf Chancery, cursive;
+}
+ 
+/*gives the index a 4 pixel padding while pushing it to the left */
+#index { 
+    padding:4px;
+    float:left;
+}
+
+  /*The color of the links were originally a dark blue when not visited this 
+    makes it white instead since my background is a grey color.*/
+    
+a:link {
+    color: black;
+    font-family:"cursive",Zapf Chancery, cursive;
+}
+
+/*the color for a visited link is a purple color and this style changes that to
+a light blue color*/
+
+a:visited {
+    color:black;
+}
+
+/* I used  http://codepen.io/wolfcry911/pen/GkxgA as a basis for the image
+alighnments but I could not find a link or direction to the author of the
+segment.This comment applies to #countries ,#countries a,#countries img */
+
+ #countries {
+  display: table;
+  margin: 20px auto;
+}
+
+#countries a {
+  display: table-cell;
+  text-align: center;
+ }
+ 
+#countries img {
+  width: 100%;
+  max-width: 150px;
+  border:5px solid black;
+}
+
+/*This creates a 50 pixel indent at the beggining of every paragraph.
+and changes the font of every paragraph*/
+p {
+    font-family:"cursive",Zapf Chancery, cursive;
+    text-align:center;
+    text-indent: 50px;      
+}
+
+/*Anything with the header 2 tag will be aligned to the center and their 
+font will be changed to a cursive family font*/
+h2{
+  text-align:center;
+  font-family:"cursive",Zapf Chancery, cursive;
+}
